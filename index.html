@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Js</title>
+  </head>
+  <body>
+    <header>
+      <img src="/41GRQrG-IWL.png" alt="randomize" />
+      <h1>Number randomizer</h1>
+    </header>
+    <section>
+      <h2>Just set the digital range</h2>
+      <div class="container">
+        <div class="left_info_container">
+          <h3>Feeling lucky today?</h3>
+          <p>
+            A number is a mathematical object used to count, measure, and label.
+          </p>
+        </div>
+        <form action="#">
+          <div class="number_wrapper">
+            <div class="input_wrapper">
+              <div class="input_1">
+                <label for="minNumber">min</label>
+                <input type="number" id="minNumber" value="1" min="1" />
+              </div>
+              <div class="input_2">
+                <label for="MaxNumber">max</label>
+                <input type="number" id="maxNumber" value="100" min="2" />
+              </div>
+            </div>
+            <button id="randomizeBtn">Randomize!</button>
+          </div>
+          <p id="randomNumber"></p>
+        </form>
+      </div>
+    </section>
+    <footer>
+      <a href="email:se2je@bk.ru"> se2je@bk.ru</a>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/paper.js/0.9.24/paper-full.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
